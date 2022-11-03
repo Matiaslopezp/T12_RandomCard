@@ -1,10 +1,17 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
+/* {
+  border-color: black;
+  border-style: dashed;
+}*/
+
 body {
-  background-color: black;
+  background-color: green;
+  justify-content: center;
+  margin-top: 50px;
 }
 .carta {
-  background-color: green;
+  margin: auto;
   height: 264px;
   width: 192px;
   align-items: center;
@@ -12,5 +19,21 @@ body {
   background-image: url("https://isenacode.com/wp-content/uploads/2022/01/Wallpaper-iPhone-s3-2022.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+}
+
+#up {
+  font-size: 35px;
+  padding-top: 10px;
+  float: left;
+}
+
+#down {
+  font-size: 35px;
+  float: right;
+  padding-top: 50px;
+}
+
+#center {
+  font-size: 50px;
+  padding-top: 80px;
 }
