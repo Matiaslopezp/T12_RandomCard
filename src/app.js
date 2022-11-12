@@ -34,7 +34,7 @@ window.onload = function() {
   //let LargoArrNum = ArrNum.length;
   let LargoArrNum = ArrNum.length;
 
-  let RandArrNum = ArrNum[Math.floor(Math.random() * LargoArrPalo)];
+  let RandArrNum = ArrNum[Math.floor(Math.random() * LargoArrNum)];
   console.log(LargoArrNum);
   console.log(RandArrNum);
 
